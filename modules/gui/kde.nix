@@ -9,7 +9,7 @@
 
   services.xserver.videoDrivers = [ "modesetting" ]; # Change if needed
 
-  sound.enable = true;
+  hardware.alsa.enable = true;
   hardware.pulseaudio.enable = false;
   services.pipewire = {
     enable = true;
