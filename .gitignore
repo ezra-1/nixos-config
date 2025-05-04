@@ -1,0 +1,6 @@
+result
+result*
+.nix-gc-root
+.direnv
+.envrc
+*.swp
